@@ -3,10 +3,10 @@ include ':app'
 setBinding(new Binding([gradle: this]))
 evaluate(new File(
         settingsDir,
-        '../my_flutter_module/.android/include_flutter.groovy'
+        '../ondemandfluttermodule/.android/include_flutter.groovy'
 ))
 include(':my_flutter_module')
 project(':my_flutter_module').projectDir = new File(
-        '../my_flutter_module'
+        '../ondemandfluttermodule'
 )
 include ':dynamicfeature'
