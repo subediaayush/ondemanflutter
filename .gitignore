@@ -69,3 +69,7 @@ freeline_project_description.json
 # Reference files
 .reference/
 app/prod/
+
+android/.gradle/
+.gradle/
+gradle/
